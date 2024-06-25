@@ -1,0 +1,28 @@
+{
+    "skills":[
+        {
+            "id": 1,
+            "src": "./img/icon.webp",
+            "title": "FrontEnd",
+            "description": "HTML, CSS, JavaScript, React, Webpack, Babel, ES6, TypeScript, Bootstrap, Semantic UI, Tailwind CSS, Styled Components, CSS-in-JS, Responsive Design, Mobile First, Progressive Web Apps, Single Page Applications, Server Side Rendering, Static Site Generators, Web Components, Progressive Web Apps, Web Performance, Web Accessibility, SEO, Web Standards, Web APIs"
+        },
+        {
+            "id": 2,
+            "src": "./img/icon.webp",
+            "title": "BackEnd",
+            "description": "HTML, CSS, JavaScript, React, Webpack, Babel, ES6, TypeScript, Bootstrap, Semantic UI, Tailwind CSS, Styled Components, CSS-in-JS, Responsive Design, Mobile First, Progressive Web Apps, Single Page Applications, Server Side Rendering, Static Site Generators, Web Components, Progressive Web Apps, Web Performance, Web Accessibility, SEO, Web Standards, Web APIs"
+        },
+        {
+            "id": 3,
+            "src": "./img/icon.webp",
+            "title": "UI/UX Design",
+            "description": "HTML, CSS, JavaScript, React, Webpack, Babel, ES6, TypeScript, Bootstrap, Semantic UI, Tailwind CSS, Styled Components, CSS-in-JS, Responsive Design, Mobile First, Progressive Web Apps, Single Page Applications, Server Side Rendering, Static Site Generators, Web Components, Progressive Web Apps, Web Performance, Web Accessibility, SEO, Web Standards, Web APIs"
+        },
+        {
+            "id": 4,
+            "src": "./img/icon.webp",
+            "title": "WebFlow Development",
+            "description": "HTML, CSS, JavaScript, React, Webpack, Babel, ES6, TypeScript, Bootstrap, Semantic UI, Tailwind CSS, Styled Components, CSS-in-JS, Responsive Design, Mobile First, Progressive Web Apps, Single Page Applications, Server Side Rendering, Static Site Generators, Web Components, Progressive Web Apps, Web Performance, Web Accessibility, SEO, Web Standards, Web APIs"
+        }
+    ]
+}

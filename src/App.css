@@ -84,6 +84,234 @@ p {
      /* End Main CSS*/
 
 
-      
-      
-      
+      h1 {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 65px;
+      }
+      h2 {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 57px;
+      }
+      h3 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 33px;
+      }
+      /*Paragraph*/
+      .text-lg {
+        color:var(--darkblue);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 30px;
+
+      }
+      .text-md {
+        color:var(--darkblue);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px;
+
+      }
+      .text-sm {
+        color:var(--black);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 20px;
+
+      }
+
+      /*Title*/
+      .section-title {
+        color:var(--heading-color);
+        font-size: 21px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        display: flex;
+        align-items: flex-start;
+      }
+
+      .sub-title {
+        color:var(--heading-color);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        
+      }
+      /* Nav Bar */
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 83px;
+        background: var(--white);
+        box-shadow: 0 5px 80px 0 rgba(0,0,0,0.1);
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+      }
+      .navbar-items > ul {
+        list-style: none;
+        display: flex;
+        align-items: flex-start;
+        gap:42px;
+        text-decoration: none;
+      }
+
+      .navbar-items ul > li > a {
+        text-decoration: none;
+
+      }
+      .navbar-content {
+        color:var(--darkblue);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        cursor: pointer;
+      }
+      .navbar-active-content {
+        color:var(--primary);
+
+      }
+      .nav-bar-logo {
+        display:flex;
+        border-radius: 50px;
+        
+        
+        
+      }
+      /* end Navbar */
+
+      /* Zero Section */
+      .zero-section {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 130px 80px 130px;
+        align-items: center;
+        justify-content: space-between;
+        gap: 32px; 
+        background-color: var(--bg-shade);     
+      }
+      .zero-section-content-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap:32px;
+      }
+      .zero-section-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap:21px;
+      }
+      .zero-section-content-box > button {
+        margin-top: 21px;
+
+      }
+      .zero-section-title {
+        color: var(--heading-color);
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 90px;
+        align-self: stretch;
+      }
+      .hero-section-title-color {
+        color: var(--primary);
+      }
+      .hero-section-description {
+        color: var(--darkblue);
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 35px;
+      }
+      .hero-section-img {
+        display: flex;
+      }
+      .hero-section-img > img{
+        width: 100%;
+        height: 100%;
+      }
+/* Zero Ends */
+/* skills Section */
+.skills-section {
+  display: flex;
+  padding:150px,85px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap:106px;
+}
+.skills-section-head {
+  color:var(--heading-color);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+}
+
+.skills-section-container {
+  display: grid;
+  justify-content: center;
+  align-items: flex-start;
+  gap:40px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.skills-section-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  padding:30px;
+  flex:1 0 0;
+  border-radius: 10px;
+  background: var(--bg-shade);
+  min-height: 250px;
+
+}
+.skills-section-item:hover {
+  border-bottom: 5px solid var(--primary);
+
+}
+.skills-section-item:hover .skills-section-desc {
+color: var(--darkblue)
+}
+skills-section-img {
+  display: flex;
+  padding:10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 0 16px 0 rgba(0,0,0,0.1);
+}
+.skills-section-item-content {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:30px;
+  align-self: stretch;
+
+}
+.skills-section-title {
+  color: var(--heading-color);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 43px;
+}
+.skills-section-desc {
+  color: var(--black);
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
+  font-style: normal;
+}
+/* skills end */

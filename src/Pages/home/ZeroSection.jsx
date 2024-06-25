@@ -1,8 +1,8 @@
 export default function ZeroSection() {
     return (
-        <section id ="zerosection" className="zero--section">
-         <div className="zero--section--content-box">
-         <div className="zero--section--content">
+        <section id ="zero-section" className="zero-section">
+         <div className="zero-section-content-box">
+         <div className="zero-section-content">
          <p className="section-title">Hey im jeremy</p>
          <h1 className="zero-section-title">
             <span className="hero-section-title-color">
@@ -21,7 +21,7 @@ export default function ZeroSection() {
          <button className="btn btn-primary">Get In Touch</button>
          </div>
          <div className="zero-section-img">
-            <img src="https://images.unsplash.com/photo-1622838320000-4b3b3b3b3b3b" alt="jeremy" />
+            <img src="./img/hero.png" alt="Zero Section" />
          </div>
         </section>
     )
