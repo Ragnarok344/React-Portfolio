@@ -1,5 +1,6 @@
 import data from '../../data/index.json';
 
+
 export default function Skills() {
     return(
         <section className="skills-section" id="skills">

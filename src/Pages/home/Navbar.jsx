@@ -1,32 +1,40 @@
 import {useState,useEffect} from 'react';
 import {Link} from 'react-scroll';
-
+// import {Link} from 'react-router-dom';
+//
 function NavBar (){
+    //useState to manage state of nav bar
     const [navActive, setNavActive] = useState(false);
-
+    //function to toggle nav bar
     const toggleNav = () => {
         setNavActive(!navActive);
     }
+    //function to close nav bar
     const closeMenu = () => {
        setNavActive(false);
     }
+    //useEffect to add event listener to window to close nav bar when window is resized
     useEffect(() => {
         const handleSize = ()=> {
             if(window.innerWidth <= 500) {
                 closeMenu();
             }
         }
+        //add event listener to window
         window.addEventListener('resize', handleSize);
         return () => {
+            //remove event listener from window
             window.removeEventListener('resize', handleSize);
         }
     },[]);
+    //useEffect to close nav bar when window is resized to less than 1200px
     useEffect(() => {
         if (window.innerWidth <= 1200) {
             closeMenu();
         }
         
 },[]);
+//returning nav bar
 return(
     <nav className={`navbar ${navActive? "active" : ""}`}>
         <div>

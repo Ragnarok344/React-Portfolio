@@ -224,19 +224,19 @@ p {
         line-height: 90px;
         align-self: stretch;
       }
-      .hero-section-title-color {
+      .zero-section-title-color {
         color: var(--primary);
       }
-      .hero-section-description {
+      .zero-section-description {
         color: var(--darkblue);
         font-size: 24px;
         font-weight: 400;
         line-height: 35px;
       }
-      .hero-section-img {
+      .zero-section-img {
         display: flex;
       }
-      .hero-section-img > img{
+      .zero-section-img > img{
         width: 100%;
         height: 100%;
       }
@@ -283,7 +283,7 @@ p {
 .skills-section-item:hover .skills-section-desc {
 color: var(--darkblue)
 }
-skills-section-img {
+.skills-section-img {
   display: flex;
   padding:10px;
   justify-content: center;
@@ -315,3 +315,17 @@ skills-section-img {
   font-style: normal;
 }
 /* skills end */
+
+/* About section */
+.about-section {
+  display: grid;
+  padding:130px 85px;
+  align-items: center;
+  gap:114px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.about-section-img > img {
+  width: 100%;
+  height: 100%;
+
+}
