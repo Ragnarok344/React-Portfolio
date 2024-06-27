@@ -56,6 +56,9 @@ return(
                 <li>
                     <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="Aboutme" className="navbar-content">About Me</Link>
                 </li>
+                <li>
+                    <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="resume" className="navbar-content">Resume</Link>
+                </li>
             </ul>
         </div>
         <Link onClick={closeMenu} activeClass="navbar-active-content" spy={true} smooth={true} offset={-70} duration={500} to="contact" className="btn btn-outline-primary">Contact Me</Link>
