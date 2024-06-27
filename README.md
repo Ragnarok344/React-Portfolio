@@ -31,4 +31,4 @@ To run this project locally:
 The website will be accessible at `http://localhost:3000`.
 
 ## Demo
-![Screen Shot](https://ibb.co/T1pmVPS)
+[Screen Shot](https://ibb.co/T1pmVPS)
