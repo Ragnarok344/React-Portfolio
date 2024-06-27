@@ -9,10 +9,35 @@ export default function Portfolio() {
                     <h2 className="section-head">My Portfolio</h2>
                 </div>
                 <div>
-                    <img src="./img/Frame.svg"></img>
+                    <a target="_blank"href="https://github.com/Ragnarok344"><img src="./img/Frame.svg"></img></a>
                     
                 
                 </div>
+            </div>
+            <div className="portfolio-section-container">
+                {data?.portfolio?.map((item, index) => (
+                    <div key={index} className="portfolio-section-card">
+                        <div className="portfolio-section-img">
+                            <img src={item.src} alt="place"/>
+                            
+                        </div>
+                        <div className="portfolio-section-card-content">
+                            <div>
+                                <h3 className="portfolio-section-title">
+                                    {item.title}
+                                </h3>
+                                <p className="text-md">
+                                    {item.description}
+                                </p>
+                            </div>
+                            <p className="text-sm-link">
+
+                            </p>
+                        </div>
+                    </div>
+
+                )
+                )}
             </div>
         </section>
     )
