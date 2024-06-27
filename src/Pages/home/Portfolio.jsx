@@ -5,7 +5,7 @@ export default function Portfolio() {
         <section className="portfolio-section"id="portfolio">
             <div className="portfolio-container-box">
                 <div className="portfolio-container">
-                    <p className="sub-title">Recent Projects</p>
+                    <p className="sub-title"></p>
                     <h2 className="section-head">My Portfolio</h2>
                 </div>
                 <div>

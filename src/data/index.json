@@ -6,55 +6,31 @@
             "id": 1,
             "src": "./img/icon.webp",
             "title": "FrontEnd",
-            "description": "HTML, CSS, JavaScript, React, Webpack, Babel, ES6, TypeScript, Bootstrap, Semantic UI, Tailwind CSS, Styled Components, CSS-in-JS, Responsive Design, Mobile First, Progressive Web Apps, Single Page Applications, Server Side Rendering, Static Site Generators, Web Components, Progressive Web Apps, Web Performance, Web Accessibility, SEO, Web Standards, Web APIs"
+            "description": "HTML, CSS, JavaScript, React, JQuery, BootStrap, WebPack, Babel, GraphQL, Next.js, TailWind CSS"
         },
         {
             "id": 2,
             "src": "./img/icon.webp",
             "title": "BackEnd",
-            "description": "HTML, CSS, JavaScript, React, Webpack, Babel, ES6, TypeScript, Bootstrap, Semantic UI, Tailwind CSS, Styled Components, CSS-in-JS, Responsive Design, Mobile First, Progressive Web Apps, Single Page Applications, Server Side Rendering, Static Site Generators, Web Components, Progressive Web Apps, Web Performance, Web Accessibility, SEO, Web Standards, Web APIs"
-        },
-        {
-            "id": 3,
-            "src": "./img/icon.webp",
-            "title": "UI/UX Design",
-            "description": "HTML, CSS, JavaScript, React, Webpack, Babel, ES6, TypeScript, Bootstrap, Semantic UI, Tailwind CSS, Styled Components, CSS-in-JS, Responsive Design, Mobile First, Progressive Web Apps, Single Page Applications, Server Side Rendering, Static Site Generators, Web Components, Progressive Web Apps, Web Performance, Web Accessibility, SEO, Web Standards, Web APIs"
-        },
-        {
-            "id": 4,
-            "src": "./img/icon.webp",
-            "title": "WebFlow Development",
-            "description": "HTML, CSS, JavaScript, React, Webpack, Babel, ES6, TypeScript, Bootstrap, Semantic UI, Tailwind CSS, Styled Components, CSS-in-JS, Responsive Design, Mobile First, Progressive Web Apps, Single Page Applications, Server Side Rendering, Static Site Generators, Web Components, Progressive Web Apps, Web Performance, Web Accessibility, SEO, Web Standards, Web APIs"
+            "description": "Node.js, Express.js, SQL, MySQL, MongoDB, GraphQL, RESTful APIs, Authentication, Authorization"
         }
+        
+           
     ],
     "portfolio":[
         {
             "id": 1,
-            "src": "./img/icon.webp",
-            "title": "FrontEnd",
-            "description": "HTML, CSS, JavaScript, React, Webpack, Babel, ES6, TypeScript, Bootstrap, Semantic UI, Tailwind CSS, Styled Components, CSS-in-JS, Responsive Design, Mobile First, Progressive Web Apps, Single Page Applications, Server Side Rendering, Static Site Generators, Web Components, Progressive Web Apps, Web Performance, Web Accessibility, SEO, Web Standards, Web APIs",
-            "link": "https://www.google.com"
+            "src": "./img/doughnut-demo.gif",
+            "title": "FrontEnd & BackEnd Doughnut Detective",
+            "description": "This was my first project that used APi's to get data from the server and display it on the page. I used HTML, CSS, JavaScript, and JQuery to build this project. I also used a third party API to get the data from the server.",
+            "link": "https://github.com/Ragnarok344/DoughnutDetective"
         },
         {
             "id": 2,
-            "src": "./img/icon.webp",
-            "title": "BackEnd",
-            "description": "HTML, CSS, JavaScript, React, Webpack, Babel, ES6, TypeScript, Bootstrap, Semantic UI, Tailwind CSS, Styled Components, CSS-in-JS, Responsive Design, Mobile First, Progressive Web Apps, Single Page Applications, Server Side Rendering, Static Site Generators, Web Components, Progressive Web Apps, Web Performance, Web Accessibility, SEO, Web Standards, Web APIs",
-            "link": "https://www.google.com"
-        },
-        {
-            "id": 3,
-            "src": "./img/icon.webp",
-            "title": "UI/UX Design",
-            "description": "HTML, CSS, JavaScript, React, Webpack, Babel, ES6, TypeScript, Bootstrap, Semantic UI, Tailwind CSS, Styled Components, CSS-in-JS, Responsive Design, Mobile First, Progressive Web Apps, Single Page Applications, Server Side Rendering, Static Site Generators, Web Components, Progressive Web Apps, Web Performance, Web Accessibility, SEO, Web Standards, Web APIs",
-            "link": "https://www.google.com"
-        },
-        {
-            "id": 4,
-            "src": "./img/icon.webp",
-            "title": "WebFlow Development",
-            "description": "HTML, CSS, JavaScript, React, Webpack, Babel, ES6, TypeScript, Bootstrap, Semantic UI, Tailwind CSS, Styled Components, CSS-in-JS, Responsive Design, Mobile First, Progressive Web Apps, Single Page Applications, Server Side Rendering, Static Site Generators, Web Components, Progressive Web Apps, Web Performance, Web Accessibility, SEO, Web Standards, Web APIs",
-            "link": "https://www.google.com"
+            "src": "./img/Project 2.png",
+            "title": "FrontEnd & BackEnd Help Me Out",
+            "description": "This was my 2nd project That used api's SQL and Node.js to build the server. I used HTML, CSS, JavaScript, and JQuery to build this project. I also used a third party API to get the data from the server.",
+            "link":"https://github.com/Carlospetsdogs/Project-2"
         }
     ]
 }

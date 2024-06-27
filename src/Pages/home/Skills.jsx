@@ -5,7 +5,7 @@ export default function Skills() {
     return(
         <section className="skills-section" id="skills">
             <div className="portfolio-container">
-                <p className="portfolio-title">Skills</p>
+                <p className="portfolio-title"></p>
                 <h2 className="skills-section-head">My Abilities</h2>
             </div>
             <div className="skills-section-container">

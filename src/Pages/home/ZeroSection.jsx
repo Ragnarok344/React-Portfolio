@@ -1,9 +1,9 @@
 export default function ZeroSection() {
     return (
-        <section id ="zero-section" className="zero-section">
+        <section id ="zerosection" className="zero-section">
          <div className="zero-section-content-box">
          <div className="zero-section-content">
-         <p className="section-title">Hey im jeremy</p>
+         <p className="section-title">Hey I'm Jeremy</p>
          <h1 className="zero-section-title">
             <span className="hero-section-title-color">
                 Full Stack 
@@ -18,7 +18,7 @@ export default function ZeroSection() {
 
          </p>
          </div>
-         <button className="btn btn-primary">Get In Touch</button>
+         <a href="#contact"><button className="btn btn-primary">Get In Touch</button></a>
          </div>
          <div className="zero-section-img">
             <img src="./img/hero.png" alt="Zero Section" />
