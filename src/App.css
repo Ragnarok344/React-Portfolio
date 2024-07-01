@@ -261,7 +261,7 @@ p {
   justify-content: center;
   align-items: flex-start;
   gap:40px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 .skills-section-item {
   display: flex;
